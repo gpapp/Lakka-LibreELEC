@@ -4,40 +4,43 @@ This is an experimental project for the ASUS Tinker Board
 
 **Progress**
 
-* [x] LEDs (power, sd-card activity and heartbeat)
-* [x] Persistent ethernet MAC-address set in u-boot (upstreamed)
-* [x] ~~Kodi fbdev (for performance testing, no vsync, no double buffering)~~ (dropped)
-* [ ] Kodi DRM/KMS
-  * [x] Basic rendering
-  * [x] Resolution / refresh rate change
-  * [ ] Scale GUI using DRM
-  * [ ] Atomic DRM
+* [x] LEDs
+* [ ] ~~CEC~~
 * [ ] Audio
-  * [x] I2S Stereo L-PCM
-  * [x] I2S Multi-channel L-PCM
-  * [x] I2S NL-PCM (AC3/E-AC3/DTS)
-  * [ ] I2S/SPDIF HBR (TrueHD/DTS-HD)
+  * [x] HDMI Stereo L-PCM
+  * [x] HDMI Multi-channel L-PCM
   * [x] HDA 3.5 mm jack
+  * [ ] HDMI NL-PCM (AC3/E-AC3/DTS)
+  * [ ] HDMI HBR (TrueHD/DTS-HD)
 * [ ] Video
   * [x] Software decoding
-  * [x] Hardware decoding (works with mpv)
+  * [ ] Hardware decoding
     * [x] h264 / hevc / vp8
-    * [x] mpegts container
-    * [x] scale video correctly
-    * [x] fix memory leak
+    * [ ] mpeg4 / mpeg2
+* [ ] HDMI Video Format
+  * [x] RGB 4:4:4 Limited Range
+  * [ ] RGB 4:4:4 Full Range
+  * [ ] YCbCr 4:4:4
+  * [ ] YCbCr 4:2:0
 * [x] WiFi
 * [x] Bluetooth
-* [ ] ~~CEC~~
 
 **Known Issues/Limitations**
 
+* Video output is RGB 4:4:4 8-bit limited range
 * Video aspect ratio / zoom is not working for all modes
 * Generic USB-Audio do not work due to a custom alsa config
 * 4K resolution is limited to 30hz due to failed compliance test
 * CEC is not connected to SoC
 
+**Serial Console**
+
+* UART2 on GPIO pin 32/33 with baud rate 115200
+
 **Build**
 
-* `PROJECT=Rockchip DEVICE=TinkerBoard ARCH=arm MEDIACENTER=no make image`
-* `PROJECT=Rockchip DEVICE=TinkerBoard ARCH=arm MEDIACENTER=mpv-rockchip make image`
-* `PROJECT=Rockchip DEVICE=TinkerBoard ARCH=arm MEDIACENTER=kodi make image`
+* `PROJECT=Rockchip DEVICE=TinkerBoard ARCH=arm make image`
+
+## Links
+
+* Community Forum: https://tinkerboarding.co.uk/forum/
