@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export DISTRO=Lakka
+
 rm -rf target/
 
 >&2 echo "Generic.x86_64"
