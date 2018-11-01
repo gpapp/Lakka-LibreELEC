@@ -215,7 +215,7 @@
   DEBUG_GROUP_YES="kodi+"
 
 # Default supported get handlers (archive, git, file etc.)
-  GET_HANDLER_SUPPORT="file git archive"
+  GET_HANDLER_SUPPORT="git archive"
 
 # Partition labels for USB/SD installation media
   DISTRO_BOOTLABEL="LAKKA"
@@ -232,7 +232,81 @@
 
   LAKKA_MIRROR="http://sources.lakka.tv"
 
-  LIBRETRO_CORES="2048 4do 81 atari800 beetle-bsnes beetle-lynx beetle-ngp beetle-pce beetle-pcfx beetle-psx beetle-saturn beetle-supergrafx beetle-vb beetle-wswan bluemsx bsnes bsnes-mercury cannonball cap32 chailove citra crocods desmume desmume-2015 dinothawr dolphin dosbox dosbox-svn easyrpg fbalpha fceumm freeintv fuse-libretro gambatte genesis-plus-gx gearboy gme gpsp gw-libretro handy hatari higan-sfc higan-sfc-balanced lutro mame2003 mame2003-plus mame2003-midway melonds meowpc98 mesen mgba mrboom mupen64plus nestopia nxengine o2em openlara parallel-n64 pcsx_rearmed picodrive pocketcdg ppsspp prboom prosystem puae px68k reicast reminiscence sameboy scummvm snes9x snes9x2002 snes9x2005 snes9x2005_plus snes9x2010 stella tgbdual tyrquake uae4arm uzem vbam vecx vice virtualjaguar xrick yabause"
+#  LIBRETRO_CORES="2048 4do 81 atari800 beetle-bsnes beetle-lynx beetle-ngp beetle-pce beetle-pcfx beetle-psx beetle-saturn beetle-supergrafx beetle-vb beetle-wswan bluemsx bsnes bsnes-mercury cannonball cap32 chailove citra crocods desmume desmume-2015 dinothawr dolphin dosbox dosbox-svn easyrpg fbalpha fceumm freeintv fuse-libretro gambatte genesis-plus-gx gearboy gme gpsp gw-libretro handy hatari higan-sfc higan-sfc-balanced lutro mame2003 mame2003-plus mame2003-midway melonds meowpc98 mesen mgba mrboom mupen64plus nestopia nxengine o2em openlara parallel-n64 pcsx_rearmed picodrive pocketcdg ppsspp prboom prosystem puae px68k reicast reminiscence sameboy scummvm snes9x snes9x2002 snes9x2005 snes9x2005_plus snes9x2010 stella tgbdual tyrquake uae4arm uzem vbam vecx vice virtualjaguar xrick yabause"
+  LIBRETRO_CORES="81 atari800 beetle-pce cannonball chailove citra crocods desmume-2015 dosbox-svn easyrpg freeintv gearboy gme gpsp "\
+" higan-sfc higan-sfc-balanced lutro mame2003-plus mame2003-midway meowpc98 mesen openlara parallel-n64 pocketcdg puae px68k reminiscence snes9x2005 snes9x2005_plus uzem xrick "\
+"cyclone68000 "\
+"libretro-2048 "\
+"libretro-4do "\
+"libretro-beetle-bsnes "\
+"libretro-beetle-gba "\
+"libretro-beetle-lynx "\
+"libretro-beetle-ngp "\
+"libretro-beetle-pce-fast "\
+"libretro-beetle-pcfx "\
+"libretro-beetle-psx "\
+"libretro-beetle-saturn "\
+"libretro-beetle-supergrafx "\
+"libretro-beetle-vb "\
+"libretro-beetle-wswan "\
+"libretro-bluemsx "\
+"libretro-bnes "\
+"libretro-bsnes-mercury-accuracy "\
+"libretro-bsnes-mercury-balanced "\
+"libretro-bsnes-mercury-performance "\
+"libretro-cap32 "\
+"libretro-desmume "\
+"libretro-dinothawr "\
+"libretro-dolphin "\
+"libretro-dosbox "\
+"libretro-fbalpha "\
+"libretro-fceumm "\
+"libretro-fmsx "\
+"libretro-fsuae "\
+"libretro-fuse "\
+"libretro-gambatte "\
+"libretro-genplus "\
+"libretro-gw "\
+"libretro-handy "\
+"libretro-hatari "\
+"libretro-mame "\
+"libretro-mame2000 "\
+"libretro-mame2003 "\
+"libretro-mame2010 "\
+"libretro-mame2014 "\
+"libretro-melonds "\
+"libretro-meteor "\
+"libretro-mgba "\
+"libretro-mrboom "\
+"libretro-mupen64plus "\
+"libretro-nestopia "\
+"libretro-nx "\
+"libretro-o2em "\
+"libretro-pcsx-rearmed "\
+"libretro-picodrive "\
+"libretro-pokemini "\
+"libretro-ppsspp "\
+"libretro-prboom "\
+"libretro-prosystem "\
+"libretro-quicknes "\
+"libretro-reicast "\
+"libretro-sameboy "\
+"libretro-scummvm "\
+"libretro-snes9x "\
+"libretro-snes9x2002 "\
+"libretro-snes9x2010 "\
+"libretro-stella "\
+"libretro-tgbdual "\
+"libretro-tyrquake "\
+"libretro-uae "\
+"libretro-uae4arm "\
+"libretro-vbam "\
+"libretro-vba-next "\
+"libretro-vecx "\
+"libretro-vice "\
+"libretro-virtualjaguar "\
+"libretro-vram-test "\
+"libretro-yabause "
 
   RA_PLAYLIST_NAMES=""\
 "Atari - 2600.lpl;"\
