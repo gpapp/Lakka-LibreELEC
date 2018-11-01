@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Repository containing cheatcode files, content data files, etc."
 PKG_LONGDESC="Repository containing cheatcode files, content data files, etc."
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

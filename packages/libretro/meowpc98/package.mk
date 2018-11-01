@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Neko Project 2 (PC98 emulator) port for libretro/RetroArch"
 PKG_LONGDESC="Neko Project 2 (PC98 emulator) port for libretro/RetroArch"
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Work In Progress SEGA Dreamcast emulator"
 PKG_LONGDESC="Work In Progress SEGA Dreamcast emulator"
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

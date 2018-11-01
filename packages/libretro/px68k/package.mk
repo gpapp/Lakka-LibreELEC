@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Portable SHARP X68000 Emulator for PSP, Android and other platforms"
 PKG_LONGDESC="Portable SHARP X68000 Emulator for PSP, Android and other platforms"
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

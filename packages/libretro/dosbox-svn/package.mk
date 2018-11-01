@@ -14,13 +14,13 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Upstream port of DOSBox to libretro"
 PKG_LONGDESC="Upstream port of DOSBox to libretro"
-PKG_TOOLCHAIN="manual"
+PKG_TOOLCHAIN="configure"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"
 
 pre_configure_target() {
-  strip_lto
+  ./autogen.sh
 }
 
 make_target() {

@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="An experimental lua game framework for libretro inspired by LÖVE"
 PKG_LONGDESC="An experimental lua game framework for libretro inspired by LÖVE"
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

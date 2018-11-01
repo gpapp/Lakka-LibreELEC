@@ -12,7 +12,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Port of Gregory Montoir's Flashback emulator, running as a libretro core."
 PKG_LONGDESC="Port of Gregory Montoir's Flashback emulator, running as a libretro core."
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

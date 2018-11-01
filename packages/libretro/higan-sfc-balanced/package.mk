@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="A fork of higan v106 by byuu, which was renamed to exclude \"higan\" at byuu's request."
 PKG_LONGDESC="$PKG_SHORTDESC"
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Libretro fork of bsnes. As close to upstream as possible."
 PKG_LONGDESC="Libretro fork of bsnes. As close to upstream as possible."
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

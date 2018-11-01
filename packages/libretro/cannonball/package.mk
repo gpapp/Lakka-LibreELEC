@@ -13,7 +13,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Cannonball: An Enhanced OutRun Engine"
 PKG_LONGDESC="Cannonball: An Enhanced OutRun Engine"
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

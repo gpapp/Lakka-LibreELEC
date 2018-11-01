@@ -19,9 +19,9 @@ PKG_TOOLCHAIN="manual"
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"
 
-post_unpack() {
-  mv $BUILD/Mesen-$PKG_VERSION* $BUILD/$PKG_NAME-$PKG_VERSION
-}
+#post_unpack() {
+#  mv $BUILD/mesen-$PKG_VERSION* $BUILD/$PKG_NAME-$PKG_VERSION
+#}
 
 make_target() {
   make -C Libretro/

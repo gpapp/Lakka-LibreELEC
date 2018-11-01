@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="Libretro port of Emux"
 PKG_LONGDESC="Emux is a cross-platform emulator project supporting various machines with an architecture inspired by the Linux kernel."
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"

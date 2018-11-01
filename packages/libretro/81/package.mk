@@ -14,7 +14,6 @@ PKG_PRIORITY="optional"
 PKG_SECTION="libretro"
 PKG_SHORTDESC="A port of the EightyOne ZX81 Emulator to libretro"
 PKG_LONGDESC="A port of the EightyOne ZX81 Emulator to libretro"
-PKG_TOOLCHAIN="manual"
 
 PKG_IS_ADDON="no"
 PKG_AUTORECONF="no"
