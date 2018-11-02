@@ -254,7 +254,6 @@
 "libretro-bsnes-mercury-balanced "\
 "libretro-bsnes-mercury-performance "\
 "libretro-cap32 "\
-"libretro-desmume "\
 "libretro-dinothawr "\
 "libretro-dolphin "\
 "libretro-dosbox "\
@@ -282,13 +281,11 @@
 "libretro-nx "\
 "libretro-o2em "\
 "libretro-pcsx-rearmed "\
-"libretro-picodrive "\
 "libretro-pokemini "\
 "libretro-ppsspp "\
 "libretro-prboom "\
 "libretro-prosystem "\
 "libretro-quicknes "\
-"libretro-reicast "\
 "libretro-sameboy "\
 "libretro-scummvm "\
 "libretro-snes9x "\
@@ -307,7 +304,9 @@
 "libretro-vram-test "\
 "libretro-yabause "
 
-#"cyclone68000 "\
+#"libretro-desmume "\
+#"libretro-picodrive "\
+#"libretro-reicast "\
 
   RA_PLAYLIST_NAMES=""\
 "Atari - 2600.lpl;"\
