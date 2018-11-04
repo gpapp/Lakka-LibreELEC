@@ -2,7 +2,7 @@
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libretro-mrboom"
-PKG_VERSION="aafe738638f4323dfa1269816ccb97bd4ce3ed58"
+PKG_VERSION="aafe738"
 PKG_SHA256="5a905d32ec6c60f444acaef13b2284a86314ac44a698da574bf6f552b7dbcb9f"
 PKG_LICENSE="GPLv3"
 PKG_SITE="https://github.com/libretro/mrboom-libretro"

@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="mame2003-plus"
-PKG_VERSION="04d2698"
+PKG_VERSION="7d12541"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="MAME"

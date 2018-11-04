@@ -286,7 +286,6 @@
 "libretro-prboom "\
 "libretro-prosystem "\
 "libretro-quicknes "\
-"libretro-sameboy "\
 "libretro-scummvm "\
 "libretro-snes9x "\
 "libretro-snes9x2002 "\
@@ -307,6 +306,7 @@
 #"libretro-desmume "\
 #"libretro-picodrive "\
 #"libretro-reicast "\
+#"libretro-sameboy "\
 
   RA_PLAYLIST_NAMES=""\
 "Atari - 2600.lpl;"\

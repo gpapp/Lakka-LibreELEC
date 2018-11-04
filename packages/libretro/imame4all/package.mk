@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="imame4all"
-PKG_VERSION="bd3833c"
+PKG_VERSION="12b5419"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="MAME"

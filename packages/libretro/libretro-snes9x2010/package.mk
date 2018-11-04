@@ -2,7 +2,7 @@
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libretro-snes9x2010"
-PKG_VERSION="d857a313e3631636d256b27185567e874581d86d"
+PKG_VERSION="d857a31"
 PKG_SHA256="b03785e76292562b30098c954c42281bbbcdacd6e8cb8306b84b9ac7d036c0ac"
 PKG_LICENSE="GPLv3"
 PKG_SITE="https://github.com/libretro/snes9x2010"

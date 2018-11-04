@@ -2,7 +2,7 @@
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libretro-nestopia"
-PKG_VERSION="28aa27ccd6a44cf8e1e406b58356a8d0bb646834"
+PKG_VERSION="28aa27c"
 PKG_SHA256="ea0d16236355f67c9b16aca47415ca19f713adfa87371d82e7e96e09ce83ecbe"
 PKG_LICENSE="GPLv2"
 PKG_SITE="https://github.com/libretro/nestopia"
