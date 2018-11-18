@@ -1,21 +1,4 @@
-ifeq ($(DISTRO),)
-	_D := *
-else
-	_D := ${DISTRO}
-endif
-ifeq ($(PROJECT)$(DEVICE),)
-	_P := *
-else
-        ifeq ($(BOARD),)
-                _P := ${DEVICE}
-	else ifeq ($(DEVICE),)
-		_P := ${PROJECT}
-	else
-		_P := ${BOARD}
-	endif
-endif
-
-BUILD_DIRS=build.${_D}-${_P}.*
+BUILD_DIRS=build.*
 
 all: release
 

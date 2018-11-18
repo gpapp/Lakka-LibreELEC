@@ -3,13 +3,16 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="mesa"
-PKG_VERSION="18.2.3"
-PKG_SHA256="e2bf83c17e1abdecb1ee81af22652e27e9aa38f963e95e60f34275cc0376304f"
+PKG_VERSION="18.2.1"
+PKG_SHA256="9636dc6f3d188abdcca02da97cedd73640d9035224efd5db724187d062c81056"
+PKG_ARCH="any"
 PKG_LICENSE="OSS"
 PKG_SITE="http://www.mesa3d.org/"
 PKG_URL="ftp://freedesktop.org/pub/mesa/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS_TARGET="toolchain expat libdrm Mako:host"
-PKG_LONGDESC="Mesa is a 3-D graphics library with an API."
+PKG_SECTION="graphics"
+PKG_SHORTDESC="mesa: 3-D graphics library with OpenGL API"
+PKG_LONGDESC="Mesa is a 3-D graphics library with an API which is very similar to that of OpenGL*. To the extent that Mesa utilizes the OpenGL command syntax or state machine, it is being used with authorization from Silicon Graphics, Inc. However, the author makes no claim that Mesa is in any way a compatible replacement for OpenGL or associated with Silicon Graphics, Inc. Those who want a licensed implementation of OpenGL should contact a licensed vendor. While Mesa is not a licensed OpenGL implementation, it is currently being tested with the OpenGL conformance tests. For the current conformance status see the CONFORM file included in the Mesa distribution."
 PKG_TOOLCHAIN="meson"
 PKG_BUILD_FLAGS="+lto"
 
@@ -96,10 +99,10 @@ post_makeinstall_target() {
   # Similar hack is needed on EGL, GLES* front. Might as well drop it and test the GLVND?
   if [ "$DISPLAYSERVER" = "x11" ]; then
     # rename and relink for cooperate with nvidia drivers
-#    rm -rf $INSTALL/usr/lib/libGL.so
-#    rm -rf $INSTALL/usr/lib/libGL.so.1
-#    ln -sf libGL.so.1 $INSTALL/usr/lib/libGL.so
-    ln -sf /usr/lib/libGL_mesa.so.1 $INSTALL/usr/lib/libGL.so.1
+    rm -rf $INSTALL/usr/lib/libGL.so
+    rm -rf $INSTALL/usr/lib/libGL.so.1
+    ln -sf libGL.so.1 $INSTALL/usr/lib/libGL.so
+    ln -sf /var/lib/libGL.so $INSTALL/usr/lib/libGL.so.1
     mv $INSTALL/usr/lib/libGL.so.1.2.0 $INSTALL/usr/lib/libGL_mesa.so.1
   fi
 }
