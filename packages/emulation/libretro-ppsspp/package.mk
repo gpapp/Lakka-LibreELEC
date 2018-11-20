@@ -2,8 +2,8 @@
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libretro-ppsspp"
-PKG_VERSION="7f88688"
-PKG_SHA256="4e7c5c40fb16021bf99c56392d2a105c0739aa975540513dba8f6e7044e2f88a"
+PKG_VERSION="caa506bf2a253a99850a4248a1cb5a399f32467a"
+PKG_SHA256="d59b4d044b761a73e744ab71e207e5b3bdbac819ed2201b79ed4455606ac0719"
 PKG_ARCH="x86_64"
 PKG_LICENSE="GPLv2"
 PKG_SITE="https://github.com/hrydgard/ppsspp"

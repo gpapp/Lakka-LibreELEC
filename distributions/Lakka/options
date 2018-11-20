@@ -281,11 +281,12 @@
 "libretro-nx "\
 "libretro-o2em "\
 "libretro-pcsx-rearmed "\
+"libretro-picodrive "\
 "libretro-pokemini "\
-"libretro-ppsspp "\
 "libretro-prboom "\
 "libretro-prosystem "\
 "libretro-quicknes "\
+"libretro-sameboy "\
 "libretro-scummvm "\
 "libretro-snes9x "\
 "libretro-snes9x2002 "\
@@ -301,12 +302,11 @@
 "libretro-vice "\
 "libretro-virtualjaguar "\
 "libretro-vram-test "\
-"libretro-yabause "
+"libretro-yabause "\
 
 #"libretro-desmume "\
-#"libretro-picodrive "\
 #"libretro-reicast "\
-#"libretro-sameboy "\
+#"libretro-ppsspp "\
 
   RA_PLAYLIST_NAMES=""\
 "Atari - 2600.lpl;"\
