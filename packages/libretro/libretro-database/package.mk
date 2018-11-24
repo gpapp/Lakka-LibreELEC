@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libretro-database"
-PKG_VERSION="cfafc3b"
+PKG_VERSION="3013a69"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"

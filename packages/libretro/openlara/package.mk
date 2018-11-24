@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="openlara"
-PKG_VERSION="7f37a21"
+PKG_VERSION="b78dfbb"
 PKG_REV="1"
 PKG_ARCH="i386 x86_64"
 PKG_LICENSE="BSD"

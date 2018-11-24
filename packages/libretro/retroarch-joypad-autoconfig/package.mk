@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="retroarch-joypad-autoconfig"
-PKG_VERSION="358643f"
+PKG_VERSION="e254e9f"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"

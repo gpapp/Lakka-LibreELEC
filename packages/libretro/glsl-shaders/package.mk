@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="glsl-shaders"
-PKG_VERSION="1fe647b"
+PKG_VERSION="9f6a408"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"

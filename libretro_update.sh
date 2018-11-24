@@ -1,5 +1,6 @@
 #!/bin/bash
 LR_PKG_PATH="packages/libretro"
+LR_PKG_PATH2="packages/emulation"
 usage()
 {
   echo ""
@@ -32,6 +33,8 @@ case $1 in
           for a in $v ; do
             if [ -f $LR_PKG_PATH/$a/package.mk ] ; then
               PACKAGES_EX="$PACKAGES_EX $a"
+            elif [ -f $LR_PKG_PATH2/$a/package.mk ] ; then
+              PACKAGES_EX="$PACKAGES_EX $a"
             else
               echo "Warning: $a is not a libretro package."
             fi
@@ -45,7 +48,7 @@ case $1 in
       esac
     fi
     # Get list of all libretro packages
-    PACKAGES_ALL=`ls $LR_PKG_PATH`
+    PACKAGES_ALL=`ls $LR_PKG_PATH $LR_PKG_PATH2`
     ;;
   -u | --used )
     s=$1
@@ -60,6 +63,8 @@ case $1 in
           [ "$v" == "" ] && { echo "Error: You must provide name(s) of package(s) to exclude after $x" ; exit 1 ; }
           for a in $v ; do
             if [ -f $LR_PKG_PATH/$a/package.mk ] ; then
+              PACKAGES_EX="$PACKAGES_EX $a"
+            elif [ -f $LR_PKG_PATH2/$a/package.mk ] ; then
               PACKAGES_EX="$PACKAGES_EX $a"
             else
               echo "Warning: $a is not a libretro package."
@@ -91,6 +96,8 @@ case $1 in
     for a in $v ; do
       if [ -f $LR_PKG_PATH/$a/package.mk ] ; then
         PACKAGES_ALL="$PACKAGES_ALL $a "
+      elif [ -f $LR_PKG_PATH2/$a/package.mk ] ; then
+        PACKAGES_ALL="$PACKAGES_ALL $a "
       else
         echo "Warning: $a is not a libretro package - skipping."
       fi
@@ -114,8 +121,11 @@ for p in $PACKAGES_ALL
 do
   f=$LR_PKG_PATH/$p/package.mk
   if [ ! -f "$f" ] ; then
-    echo "$f: not found! Skipping."
-    continue
+    f=$LR_PKG_PATH2/$p/package.mk
+    if [ ! -f "$f" ] ; then
+	echo "$f: not found! Skipping."
+	continue
+    fi
   fi
   PKG_VERSION=`cat $f | sed -En "s/^PKG_VERSION=\"(.*)\"/\1/p"`
   PKG_SITE=`cat $f | sed -En "s/^PKG_SITE=\"(.*)\"/\1/p"`
@@ -136,6 +146,7 @@ do
     i+=1
     echo "$PKG_NAME updated from $PKG_VERSION to $UPS_VERSION"
     sed -i "s/$PKG_VERSION/$UPS_VERSION/" $f
+    sed -i "s/^PKG_SHA256/#PKG_SHA256/" $f
   fi
 done
 echo "$i package(s) updated."

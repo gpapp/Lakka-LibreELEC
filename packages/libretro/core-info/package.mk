@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="core-info"
-PKG_VERSION="985ceb8"
+PKG_VERSION="91cbf55"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"

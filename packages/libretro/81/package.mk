@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="81"
-PKG_VERSION="089fcb1"
+PKG_VERSION="7900d64"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPLv3"

@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="retroarch-overlays"
-PKG_VERSION="779c2a5"
+PKG_VERSION="8570b84"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"

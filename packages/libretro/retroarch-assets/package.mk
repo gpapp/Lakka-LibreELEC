@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="retroarch-assets"
-PKG_VERSION="dd0434d"
+PKG_VERSION="d0881c2"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"

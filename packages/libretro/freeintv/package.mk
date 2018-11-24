@@ -3,7 +3,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="freeintv"
-PKG_VERSION="f9b557e"
+PKG_VERSION="f2bdca6"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPLv3"
